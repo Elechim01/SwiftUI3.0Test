@@ -10,6 +10,11 @@
 		C452FA322670C20B00D60E2B /* NewAppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C452FA312670C20B00D60E2B /* NewAppStorage.swift */; };
 		C452FA342670C52900D60E2B /* NewKeyboradDone.swift in Sources */ = {isa = PBXBuildFile; fileRef = C452FA332670C52900D60E2B /* NewKeyboradDone.swift */; };
 		C452FA362670C69300D60E2B /* NewCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = C452FA352670C69300D60E2B /* NewCanvas.swift */; };
+		C45BE2FE2672AF8E009BE81F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C45BE2FD2672AF8E009BE81F /* GoogleService-Info.plist */; };
+		C45BE3012672AFFC009BE81F /* NewAsyncFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45BE3002672AFFC009BE81F /* NewAsyncFirebase.swift */; };
+		C45BE3042672B159009BE81F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C45BE3032672B159009BE81F /* FirebaseAuth */; };
+		C45BE3062672B159009BE81F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C45BE3052672B159009BE81F /* FirebaseFirestore */; };
+		C45BE3082672B159009BE81F /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = C45BE3072672B159009BE81F /* FirebaseFirestoreSwift-Beta */; };
 		C493F09526715EC40084AF16 /* NewKeboardAccessory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C493F09426715EC40084AF16 /* NewKeboardAccessory.swift */; };
 		C493F097267161700084AF16 /* FocusedKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C493F096267161700084AF16 /* FocusedKeyboard.swift */; };
 		C493F099267163120084AF16 /* NewBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C493F098267163120084AF16 /* NewBindings.swift */; };
@@ -18,6 +23,7 @@
 		C493F09F267168AB0084AF16 /* NewTextCustomizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C493F09E267168AB0084AF16 /* NewTextCustomizations.swift */; };
 		C493F0A126716B060084AF16 /* NewTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = C493F0A026716B060084AF16 /* NewTimeline.swift */; };
 		C493F0A326716CD50084AF16 /* NewButtonCustomization's.swift in Sources */ = {isa = PBXBuildFile; fileRef = C493F0A226716CD50084AF16 /* NewButtonCustomization's.swift */; };
+		C499010D267553620096EC8E /* NewCoreLocationUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C499010C267553620096EC8E /* NewCoreLocationUI.swift */; };
 		C4A5087026700648001F2659 /* SwiftUI3_0TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A5086F26700648001F2659 /* SwiftUI3_0TestApp.swift */; };
 		C4A5087226700648001F2659 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A5087126700648001F2659 /* ContentView.swift */; };
 		C4A508742670064A001F2659 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4A508732670064A001F2659 /* Assets.xcassets */; };
@@ -35,6 +41,9 @@
 		C452FA312670C20B00D60E2B /* NewAppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAppStorage.swift; sourceTree = "<group>"; };
 		C452FA332670C52900D60E2B /* NewKeyboradDone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewKeyboradDone.swift; sourceTree = "<group>"; };
 		C452FA352670C69300D60E2B /* NewCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCanvas.swift; sourceTree = "<group>"; };
+		C45BE2FD2672AF8E009BE81F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C45BE2FF2672AFC7009BE81F /* SwiftUI3-0Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SwiftUI3-0Test-Info.plist"; sourceTree = SOURCE_ROOT; };
+		C45BE3002672AFFC009BE81F /* NewAsyncFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAsyncFirebase.swift; sourceTree = "<group>"; };
 		C493F09426715EC40084AF16 /* NewKeboardAccessory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewKeboardAccessory.swift; sourceTree = "<group>"; };
 		C493F096267161700084AF16 /* FocusedKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusedKeyboard.swift; sourceTree = "<group>"; };
 		C493F098267163120084AF16 /* NewBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBindings.swift; sourceTree = "<group>"; };
@@ -43,6 +52,7 @@
 		C493F09E267168AB0084AF16 /* NewTextCustomizations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTextCustomizations.swift; sourceTree = "<group>"; };
 		C493F0A026716B060084AF16 /* NewTimeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTimeline.swift; sourceTree = "<group>"; };
 		C493F0A226716CD50084AF16 /* NewButtonCustomization's.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NewButtonCustomization's.swift"; sourceTree = "<group>"; };
+		C499010C267553620096EC8E /* NewCoreLocationUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCoreLocationUI.swift; sourceTree = "<group>"; };
 		C4A5086C26700648001F2659 /* SwiftUI3.0Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI3.0Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A5086F26700648001F2659 /* SwiftUI3_0TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI3_0TestApp.swift; sourceTree = "<group>"; };
 		C4A5087126700648001F2659 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +72,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C45BE3082672B159009BE81F /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				C45BE3042672B159009BE81F /* FirebaseAuth in Frameworks */,
+				C45BE3062672B159009BE81F /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,8 +100,10 @@
 		C4A5086E26700648001F2659 /* SwiftUI3.0Test */ = {
 			isa = PBXGroup;
 			children = (
+				C45BE2FF2672AFC7009BE81F /* SwiftUI3-0Test-Info.plist */,
 				C4A5087D267007C7001F2659 /* NewElement */,
 				C4A5086F26700648001F2659 /* SwiftUI3_0TestApp.swift */,
+				C45BE2FD2672AF8E009BE81F /* GoogleService-Info.plist */,
 				C4A5087126700648001F2659 /* ContentView.swift */,
 				C4A508732670064A001F2659 /* Assets.xcassets */,
 				C4A508752670064A001F2659 /* Preview Content */,
@@ -125,6 +140,8 @@
 				C493F09E267168AB0084AF16 /* NewTextCustomizations.swift */,
 				C493F0A026716B060084AF16 /* NewTimeline.swift */,
 				C493F0A226716CD50084AF16 /* NewButtonCustomization's.swift */,
+				C45BE3002672AFFC009BE81F /* NewAsyncFirebase.swift */,
+				C499010C267553620096EC8E /* NewCoreLocationUI.swift */,
 			);
 			path = NewElement;
 			sourceTree = "<group>";
@@ -145,6 +162,11 @@
 			dependencies = (
 			);
 			name = SwiftUI3.0Test;
+			packageProductDependencies = (
+				C45BE3032672B159009BE81F /* FirebaseAuth */,
+				C45BE3052672B159009BE81F /* FirebaseFirestore */,
+				C45BE3072672B159009BE81F /* FirebaseFirestoreSwift-Beta */,
+			);
 			productName = SwiftUI3.0Test;
 			productReference = C4A5086C26700648001F2659 /* SwiftUI3.0Test.app */;
 			productType = "com.apple.product-type.application";
@@ -173,6 +195,9 @@
 				Base,
 			);
 			mainGroup = C4A5086326700647001F2659;
+			packageReferences = (
+				C45BE3022672B159009BE81F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = C4A5086D26700648001F2659 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -188,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4A508772670064A001F2659 /* Preview Assets.xcassets in Resources */,
+				C45BE2FE2672AF8E009BE81F /* GoogleService-Info.plist in Resources */,
 				C4A508742670064A001F2659 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C45BE3012672AFFC009BE81F /* NewAsyncFirebase.swift in Sources */,
 				C452FA362670C69300D60E2B /* NewCanvas.swift in Sources */,
 				C493F0A126716B060084AF16 /* NewTimeline.swift in Sources */,
 				C452FA342670C52900D60E2B /* NewKeyboradDone.swift in Sources */,
@@ -214,6 +241,7 @@
 				C4A5087F267007EB001F2659 /* NewList.swift in Sources */,
 				C4A508872670186A001F2659 /* NewSubmit.swift in Sources */,
 				C493F0A326716CD50084AF16 /* NewButtonCustomization's.swift in Sources */,
+				C499010D267553620096EC8E /* NewCoreLocationUI.swift in Sources */,
 				C4A5087026700648001F2659 /* SwiftUI3_0TestApp.swift in Sources */,
 				C493F09B267164F10084AF16 /* NewForegroudStyles.swift in Sources */,
 				C493F09D267166530084AF16 /* NewSystemImage.swift in Sources */,
@@ -351,6 +379,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI3.0Test/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI3-0Test-Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = SwiftUI3.0Test;
+				INFOPLIST_KEY_CFBundleName = SwiftUI3.0Test;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -380,6 +412,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI3.0Test/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI3-0Test-Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = SwiftUI3.0Test;
+				INFOPLIST_KEY_CFBundleName = SwiftUI3.0Test;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -421,6 +457,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C45BE3022672B159009BE81F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C45BE3032672B159009BE81F /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C45BE3022672B159009BE81F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C45BE3052672B159009BE81F /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C45BE3022672B159009BE81F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		C45BE3072672B159009BE81F /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C45BE3022672B159009BE81F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C4A5086426700647001F2659 /* Project object */;
 }

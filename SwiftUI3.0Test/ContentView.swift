@@ -9,13 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        if #available(iOS 15.0, *){
         ZStack {
             Text("Ciao")
-            NewTextCustomizations()
+            NewCoreLocationUI()
+        }
+            
+        }else{
+            Text("Hola")
         }
     }
 }
 
+@available(iOS 15.0, *)
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()

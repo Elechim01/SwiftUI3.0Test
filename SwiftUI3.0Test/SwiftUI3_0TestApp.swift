@@ -6,9 +6,16 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct SwiftUI3_0TestApp: App {
+//    if you want to just intialize firebase..
+//    then use this method...
+//    else use delegate asaptor
+    init(){
+        FirebaseApp.configure()
+    }
     var body: some Scene {
         WindowGroup {
             ContentView()
